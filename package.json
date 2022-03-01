@@ -1,6 +1,6 @@
 {
   "name": "very-good-coverage",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Github Action which helps enforce code coverage threshold using lcov",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/VeryGoodOpenSource/very_good_coverage.git"
   },
   "engines": {
-    "node": ">=14.17.5 <15"
+    "node": ">=14.17.5 <17"
   },
   "keywords": [
     "GitHub",
@@ -34,14 +34,14 @@
   "homepage": "https://github.com/VeryGoodOpenSource/very_good_coverage",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@eslint/eslintrc": "^1.0.4",
+    "@eslint/eslintrc": "^1.2.0",
     "lcov-parse": "^1.0.0",
-    "minimatch": "^3.0.4",
+    "minimatch": "^5.0.1",
     "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.33.1",
-    "eslint": "^8.8.0",
-    "jest": "^27.4.7"
+    "@vercel/ncc": "^0.33.3",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1"
   }
 }
