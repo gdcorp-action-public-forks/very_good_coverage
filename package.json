@@ -34,14 +34,14 @@
   "homepage": "https://github.com/VeryGoodOpenSource/very_good_coverage",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@eslint/eslintrc": "^1.2.0",
+    "@eslint/eslintrc": "^1.2.1",
     "lcov-parse": "^1.0.0",
     "minimatch": "^5.0.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.33.3",
-    "eslint": "^8.10.0",
+    "eslint": "^8.11.0",
     "jest": "^27.5.1"
   }
 }
